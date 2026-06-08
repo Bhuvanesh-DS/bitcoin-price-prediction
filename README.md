@@ -50,12 +50,12 @@ Bitcoin prices are highly volatile and influenced by multiple market factors. Th
 
 | Metric | Score |
 |---|---|
-| MAE | *(update with your value)* |
-| RMSE | *(update with your value)* |
-| R² Score | *(update with your value)* |
+| MAE | ~0.00 (2.82e-11) |
+| RMSE | ~0.00 (3.31e-11) |
+| R² Score | 1.0 |
 
----
-
+> ⚠️ Note: High R² is due to multicollinearity between features (Adj Close ≈ Close).
+> Future improvement: remove Adj Close and use only Open, High, Low, Volume as features.
 ## 📁 Project Structure
 
 ```
